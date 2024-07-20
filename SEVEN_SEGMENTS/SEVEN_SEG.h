@@ -1,9 +1,3 @@
-/*
- * 7SEGMENT.h
- *
- *  Created on: Sep 2, 2022
- *      Author: ahmed
- */
 
 #ifndef SEVEN_SEG_H_
 #define SEVEN_SEG_H_
