@@ -34,39 +34,3 @@ int main(void)
 
 	}
 }
-
-
-/*
-
-int main(void) {
-	
-	
-	GPIO_setupPinDirection(PORTB_ID, PIN0_ID, PIN_INPUT);
-	
-	// Setup Timer0
-	Timer0_Init_Normal_Mode();
-	
-	LCD_init();
-	
-	LCD_intgerToString(count);
-	_delay_ms(100);
-	LCD_clearScreen();
-	
-
-	while (1) {
-		if (GPIO_readPin(PORTB_ID, PIN0_ID) == BUTTON_RELEASED)
-		{
-			
-			count++;
-			LCD_intgerToString(count);
-			_delay_ms(100);
-			LCD_clearScreen();
-			
-		}
-		
-	}
-
-	return 0;
-}
-
-*/
